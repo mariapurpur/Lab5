@@ -46,6 +46,28 @@
 
 2. Инициализируем командой `git flow init` и создадим ветку для новой функциональности:
 
-![image](https://github.com/user-attachments/assets/1c26b009-6f47-4d6c-9827-4d45121bd5f7)
+![image](https://github.com/user-attachments/assets/a38325dd-0a24-49b6-be5d-7d2ec16044e2)
 
-3. 
+3. Начнём работу над feature. Создадим файл task_manager.py, введём код из примера в него и заккомитим изменения. Далее пропишем команду `git flow feature finish task-management`.
+
+![image](https://github.com/user-attachments/assets/a7a534b2-8803-4a92-806a-599843f5e1f0)
+
+4. Переключимся на ветку develop. Создадим релиз и закоммитим его.
+
+![image](https://github.com/user-attachments/assets/f037e912-bf66-4aa0-9d0f-45d09193de2a)
+
+![image](https://github.com/user-attachments/assets/adfc124a-090f-441e-a5eb-bcd9e1dae5fa)
+
+5. Пропишем `git flow release finish v1.0.0`, чтобы закончить работу над релизом, а затем создадим hotfix.
+
+![image](https://github.com/user-attachments/assets/c18e1786-3eeb-4aa6-b1d2-ae5b623d49bb)
+
+6. После успешной работы над hotfix пропишем `git flow hofix finish hotfix-1.0.1`.
+
+![image](https://github.com/user-attachments/assets/424fee29-f5a0-4ee5-aee9-a4bb9d4d925e)
+
+7. Завершим работу и загрузим изменения при помощи `git push origin develop`. Не забудем про `git push origin main`.
+
+![image](https://github.com/user-attachments/assets/0329e810-b810-43c6-931a-2f5c7bb3d8aa)
+
+![image](https://github.com/user-attachments/assets/52e762c7-566e-40b1-a8e8-163a341c0989)
